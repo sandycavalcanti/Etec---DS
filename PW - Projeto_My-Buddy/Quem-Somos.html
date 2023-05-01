@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Quem Somos</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="shortcut icon" href="img/Favicon/Quem-Somos.ico">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</head>
+<body>
+  <div id="background">
+    <nav class="navbar navbar-expand-lg navbar-white" style="background-color: #76989E;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Home.html">
+          <img src="img/Icones/Logo.png" alt="Logo" width="60">
+        </a>
+        <button class="navbar-toggler btn" style="background-color: #6a868bbe;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon navbar-dark"><img src="img/Icones/Hamburguer-Icone.png" alt="Botão" width="30"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="Home.html">
+                <img src="img/Icones/Home-Icone.png" alt="Icone" width="30">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="Para-Adocao.html">
+                <img src="img/Icones/Adocao-Icone.png" alt="Icone" width="30">
+                Para adoção
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Quem-Somos.html">
+              <img src="img/Icones/Quem-Somos-Icone.png" alt="Icone" width="30">
+              Quem somos
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="Produtos.html">
+              <img src="img/Icones/Produtos-Icone.png" alt="Icone" height="30">
+              Produtos
+              </a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <img src="img/Icones/Contato-Icone.png" alt="Icone" width="30">
+            Contate nos!
+            4002-8922
+          </span>
+        </div>
+    </nav>
+    <h1>QUEM SOMOS NOS?</h1>
+    <div class="container">
+      <div>
+        <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="right" title="
+        Meu nome é Renan Mochizuki e atualmente sou aluno da Etec Professora Ermelinda Giannini Teixeira, cursando o 1º Ano de Desenvolvimento de Sistemas em 2021, tenho 15 anos e gosto muito de gatos.
+        ">
+          <h1>Renan</h1>
+          <div id="Renan" class="img"></div>
+        </button>
+      </div>
+      <div>
+        <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="
+        Olá, sou Sandy Pereira Cavalcanti, tenho 15 anos e estou no 1º ano do ensino técnico (No meu caso, Desenvolvimento de Sistemas) integrado ao ensino médio da Etec Ermelinda Giannini Teixeira, gosto muito de cães.
+        ">
+          <h1>Sandy</h1>
+          <div id="Sandy" class="img"></div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)})
+  </script>
+</body>
+</html>

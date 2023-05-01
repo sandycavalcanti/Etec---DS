@@ -1,0 +1,236 @@
+#background{
+    background-image: url('../img/Fundo.png');
+    background-repeat: no-repeat;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: auto;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+  }
+  a{
+    text-decoration: none;
+  }
+  .nav-link{
+    color: antiquewhite;
+    font-family: cursive;
+    font-size: 20px;
+  }
+  .nav-link:hover{
+    color: rgb(182, 255, 255);
+  }
+  .nav-link:focus{
+    color: rgb(155, 219, 219);
+  }
+  .navbar{
+    position: relative;
+    border-bottom: solid #5c7a80 3px;
+  }
+  .navbar li a:before {
+    content: '|';
+    color: #cfcfcfab;
+    padding-left: .5em;
+    padding-right: .5em;
+  }
+  .navbar-text{
+    font-size: 20px;
+    color: #425558;
+  }
+  @font-face{
+    font-family: LemonMelon;
+    src: url('../Fontes/LemonMelon-qZx36.ttf');
+  }
+  h2{
+    font-family: LemonMelon;
+    font-size: 50px;
+    font-weight: bold;
+    color: #123F3A;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  #item-1{
+    background-image: url('../img/Link-Para-Adocao.jpg');
+  }
+  #item-1:hover{
+    background-image: url('../img/Fundo-Link.png');
+    color: #324e4b;
+  }
+  #item-2{
+    background-image: url('../img/Link-Quem-Somos.jpg');
+  }
+  #item-2:hover{
+    background-image: url('../img/Fundo-Link.png');
+    color: #324e4b;
+  }
+  #item-3{
+    background-image: url('../img/Link-Produtos.png');
+  }
+  #item-3:hover{
+    background-image: url('../img/Fundo-Link.png');
+    color: #324e4b;
+  }
+  .links{
+    position: relative;
+    margin: auto;
+    top: 100px;
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .container-link{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    border-bottom: solid #5c7a80 3px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 25px;
+    background-color: #badbe0ab;
+  }
+  #text{
+    font-family: LemonMelon;
+    font-size: 35px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    top: 80px;
+    width: 80%;
+    height: auto;
+  }
+  @media(max-width: 480px){
+  #text{
+    width: 95%;
+    font-size: 30px;
+  }
+  }
+  .nome{ /*Titulo*/
+    position: relative;
+    top: 50px;
+    margin: auto; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  @media(max-width: 480px){
+  .nome img{
+    width: 100%;
+  }
+  }
+  .title{
+    position: relative;
+    top: 25px;
+    font-family: LemonMelon;
+    font-size: 40px;
+    color: #5c7a80;
+    text-align: center;
+    font-weight: bold;
+  }
+  .container1{
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .card{
+    border-radius: 10px;
+    width: 20rem;
+    height: auto;
+  }
+  .card img{
+    border-bottom: solid #30454b 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .card1{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.651);
+    margin-bottom: 20px;
+  }
+  @media(max-width: 480px){ 
+    .title{
+      font-size: 30px;
+    }
+    }
+  @media(max-width: 480px){
+    h2{
+      font-size: 40px;
+      margin-top: 20px;
+    }
+    }
+  .img{
+    border-radius: 100%;
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 0px 10px #000000;
+    background-size: cover;
+  }
+  #Renan{
+    background-image: url('../img/Renan.png');
+  }
+  #Sandy{ 
+    background-image: url('../img/Sandy.png');
+  }
+  .tooltip {
+    font-size: 25px;
+  }
+  .tooltip-inner {
+    max-width: 500px;
+    background-image: radial-gradient(#333333, #000000);
+  }
+  h1{
+    text-align: center;
+    font-family: LemonMelon;
+    font-size: 50px;
+    font-weight: bold;
+    color: #123F3A;
+    margin-top: 10px;
+  }
+  .container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: LemonMelon;
+  }
+  .container2{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 40PX;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+  }
+  .card-title{
+    font-family: cursive;
+  }
+  .card2{
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.651);
+    margin-bottom: 25px;
+  }
