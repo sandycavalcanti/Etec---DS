@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personagens</title>
+
+
+  <style>
+
+        body{
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 1900px;
+            
+        }
+
+        #fundo{
+            background-image: url(img/parede_escripta.jpg);
+            background-repeat: no-repeat;
+            top: 0px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            overflow: auto;
+            position: absolute;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .titulo{
+            position: relative;
+            width: 1000px;
+            color: rgb(0, 0, 0);
+            left: 50px;
+         }
+
+         h1{
+             font-size: 80px;
+             color: rgb(20, 1, 1);
+         }
+
+        #container{
+             position: relative;
+             width: 1305px;
+             height: 4900px;
+             top: -50px;
+             margin: auto;
+             display: flex;
+             flex-direction: column;
+             justify-content: space-around;
+         }
+
+         .foto_agatha{
+             position: relative;
+             top: -5px;
+             left: -5px;
+             width: 280px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0)
+         }
+
+         #agatha{
+             width: 1300px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0);
+             background-color: rgba(80, 77, 77, 0.514);
+             box-shadow: 20px 20px 30px rgb(20, 1, 1);
+         }
+
+         .foto_kaisar{
+             position: relative;
+             top: -5px;
+             left: -5px;
+             width: 280px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0)
+         }
+
+         #kaisar{
+             width: 1300px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0);
+             background-color: rgba(80, 77, 77, 0.514);
+             box-shadow: 20px 20px 30px rgb(20, 1, 1);
+         }
+
+         .foto_arthur{
+             position: relative;
+             top: -5px;
+             left: -5px;
+             width: 280px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0)
+         }
+
+         #arthur{
+             width: 1300px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0);
+             background-color: rgba(80, 77, 77, 0.514);
+             box-shadow: 20px 20px 30px rgb(20, 1, 1);
+         }
+
+         .foto_joui{
+             position: relative;
+             top: -5px;
+             left: -5px;
+             width: 280px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0)
+         }
+
+         #joui{
+             width: 1300px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0);
+             background-color: rgba(80, 77, 77, 0.514);
+             box-shadow: 20px 20px 30px rgb(20, 1, 1);
+         }
+
+         .foto_erin{
+             position: relative;
+             top: -5px;
+             left: -5px;
+             width: 280px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0)
+         }
+
+         #erin{
+             width: 1300px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0);
+             background-color: rgba(80, 77, 77, 0.514);
+             box-shadow: 20px 20px 30px rgb(20, 1, 1);
+         }
+
+         .foto_dante{
+             position: relative;
+             top: -5px;
+             left: -5px;
+             width: 280px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0)
+         }
+
+         #dante{
+             width: 1300px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0);
+             background-color: rgba(80, 77, 77, 0.514);
+             box-shadow: 20px 20px 30px rgb(20, 1, 1);
+         }
+
+         .foto_luciano_fernando{
+             position: relative;
+             top: -5px;
+             left: -5px;
+             width: 280px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0)
+         }
+
+         #luciano_fernando{
+             width: 1300px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0);
+             background-color: rgba(80, 77, 77, 0.514);
+             box-shadow: 20px 20px 30px rgb(20, 1, 1);
+         }
+
+         .foto_beatrice{
+             position: relative;
+             top: -5px;
+             left: -5px;
+             width: 280px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0)
+         }
+
+         #beatrice{
+             width: 1300px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0);
+             background-color: rgba(80, 77, 77, 0.514);
+             box-shadow: 20px 20px 30px rgb(20, 1, 1);
+         }
+
+         .descrição{
+             position:static;
+             width: 990px;
+             height: 310px;
+             margin-top: -340px;
+             margin-left: 290px;
+             
+         }
+
+         h2{
+             position: relative;
+             left: 50px;
+             font-family: cursive;
+             color: rgb(31, 3, 3);
+         }
+
+         p{
+             font-family:cursive;
+             font-size: 20px;
+             margin-left: 15px;
+             margin-right: 15px;
+             margin-top: 2%;
+             color: rgb(31, 3, 3);
+         }
+
+         .foto_ivete{
+             position: relative;
+             top: -5px;
+             left: -5px;
+             width: 280px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0)
+         }
+
+         #ivete{
+             width: 1300px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0);
+             background-color: rgba(80, 77, 77, 0.514);
+             box-shadow: 20px 20px 30px rgb(20, 1, 1);
+         }
+
+         .foto_gal{
+             position: relative;
+             top: -5px;
+             left: -5px;
+             width: 280px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0)
+         }
+
+         #gal{
+             width: 1300px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0);
+             background-color: rgba(80, 77, 77, 0.514);
+             box-shadow: 20px 20px 30px rgb(20, 1, 1);
+         }
+
+         .foto_liz{
+             position: relative;
+             top: -5px;
+             left: -5px;
+             width: 280px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0)
+         }
+
+         #liz{
+             width: 1300px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0);
+             background-color: rgba(80, 77, 77, 0.514);
+             box-shadow: 20px 20px 30px rgb(20, 1, 1);
+         }
+
+         .saida{
+            position: relative;
+            width: 50px;
+            height: 20px;
+            top: -40px;
+            left: -100px;
+            
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.849);
+        }
+
+  </style>
+
+</head>
+
+<body background="img/parede_escripta.jpg">
+  <div id="fundo">
+  <center><div class="titulo"> <h1>Personagens principais:</h1></div></center>
+
+   <div id="container">
+        <div id="agatha">
+          <div class="foto_agatha"> <img src="img/agatha_4.png" width="280" height="340"></div>
+          <div class="descrição">
+              <h2>Agatha Volkomenn</h2>
+              <p> Agatha é sem duvidas, um dos personagens mais amados do RPG, além de ser a única da lista que não possui um ator próprio. Com um passado extremamente trágico e repleto de perdas, Agatha se tornou uma especialista nas artes do “Outro lado”, ela possui um grande conhecimento sobre rituais e maldições. Com passar do tempo estes conhecimentos vão se tornando cada vez mais uteis.  </p>
+              <p>Esta personagem está presente desde a primeira temporada, se tornando o personagem mais antigo do RPG.</p>
+           </div>
+        </div>
+
+        <div id="kaisar">
+            <div class="foto_kaisar"> <img src="img/kaisar.jpg" width="280" height="340"></div>
+            <div class="descrição">
+                <h2>Cesar Oliveira Cohen </h2>
+                <p> Cesar é um homem de aproximadamente 35 anos, este personagem esteve presente na segunda e terceira temporada. Durante a terceira temporada Cesar passou a se chamar kaisar</p>
+                <p> Cesar teve uma infância complicada, pois seu pai vivia desaparecendo por semanas, aparentemente sem motivo, com o passar do tempo Cesar foi adquirindo um grande conhecimento sobre tecnologia. Foi grassar a esse seu conhecimento que Cesar descobriu sobre a “Ordo Realitas" e acabou se tornando um agente. </p>
+            </div>
+        </div>
+   
+        <div id="arthur">
+           <div class="foto_arthur"> <img src="img/arthur.jpg" width="280" height="340"></div>
+           <div class="descrição">
+               <h2>Arthur Cervero</h2>
+               <p>Arthur é um ex-guitarrista  de uma banda de rock, teve seu primeiro contato com o paranormal aos 28 anos, quando teve seu primeiro encontro com a equipe E, este encontro resultou na morte de seu pai e de seus companheiros de gangue  os Galdérios abutres, um tempo depois Arthur acabou se tornando um agente da ordem. </p>
+           </div>
+        </div>
+
+        <div id="joui">
+            <div class="foto_joui"> <img src="img/joui1.jpg" width="280" height="340"></div>
+            <div class="descrição">
+                <h2>Joui Jouki</h2>
+                <p>Joui foi um ginasta olímpico que depois acabou se tornando agente da ordem, teve seu primeiro contato com o paranormal durante um passeio com dois amigos ginastas, ele foi o único sobrevivente. </p>
+                <p>Depois de tudo aquilo, Joui decidiu se juntar a ordem, pois n queria que mais ninguém passasse pelo o que ele passou.</p>
+            </div>
+         </div>
+
+         <div id="erin">
+            <div class="foto_erin"> <img src="img/erin1.jpg" width="280" height="340"></div>
+            <div class="descrição">
+                <h2>Erin Parker</h2>
+                <p>Erin Parker foi uma engenheira que fazia parte da Equipe Brasa da Ordo Realitas, entrando originalmente na Ordem por influência de sua avó, Francisca Parker, e depois, se envolvendo na investigação do desaparecimento de Elizabeth Webber, assim, se juntando a Força D.</p>
+            </div>
+         </div>
+
+         <div id="dante">
+            <div class="foto_dante"> <img src="img/dante.jpg" width="280" height="340"></div>
+            <div class="descrição">
+                <h2>Dante</h2>
+                <p>Dante, cujo nome original é Gaspar, era um ocultista que foi preso por suspeita de participação em um ritual envolvendo um agente da ordem, e posteriormente por conta de sua ajuda durante a investigação do caso de desaparecimento de Elizabeth Webber acabou se tornando um agente da Ordo Realitas.</p>
+            </div>
+         </div>
+
+         <div id="luciano_fernando">
+            <div class="foto_luciano_fernando"> <img src="img/luciano_fernando.jpg" width="280" height="340"></div>
+            <div class="descrição">
+                <h2>Fernando Carvalho e Luciano Carvalho</h2>
+                <p>Luciano foi um ex-militar e Fernando foi um cantor, ambos eram agentes da ordem, além disso, devido a um ritual que deu errado, se viram obrigados a dividir o mesmo corpo. Sempre que Fernando se sentia assustado ou que havia perigo por perto, Luciano tomava posse de seu corpo, mas em momentos mais calmos, era Fernando que costumava controlar o do corpo.</p>
+            </div>
+         </div>
+
+         <div id="beatrice">
+            <div class="foto_beatrice"> <img src="img/beatrice.jpg" width="280" height="340"></div>
+            <div class="descrição">
+                <h2>Beatrice Portinari</h2>
+                <p>Beatrice Portinari, cujo nome verdadeiro é Lilian Galen, foi uma florista que estava sempre na companhia de seu pássaro, Orpheu.</p>
+                    <p> Se tornou parte da ordem quando passando pela rua ela avistou um Zumbi de sangue, e curiosa foi atras, encontrando alguns agentes da ordem em trabalho, e até ajudando eles no serviço.  </p>
+            </div>
+         </div>
+
+         <div id="ivete">
+            <div class="foto_ivete"> <img src="img/ivete.jpg" width="280" height="340"></div>
+            <div class="descrição">
+                <h2>Ivete Beicur</h2>
+                <p>Ela era dona do bar Suvaco Seco, um bar de motoqueiros da cidade de Carpazinha, no Rio Grande do Sul. Após os eventos trágicos que ocorreram, e lhe sobrar apenas Arthur como família, ela decide entrar no grupo da Ordo Realitas.</p>
+            </div>
+         </div>
+
+         <div id="gal">
+            <div class="foto_gal"> <img src="img/gal.jpg" width="280" height="340"></div>
+            <div class="descrição">
+                <h2>Gal</h2>
+                <p>Gal é um dos principais antagonistas de Ordem Paranormal: Desconjuração e era o "líder" dos Escriptas, também conhecidos como Culto do Conhecimento, antes da chegada de Kian.</p>
+            </div>
+         </div>
+
+         <div id="liz">
+            <div class="foto_liz"> <img src="img/liz.jpg" width="280" height="340"></div>
+            <div class="descrição">
+                <h2>Elizabeth Webber</h2>
+                <p>Elizabeth "Liz" foi uma das protagonistas de Ordem Paranormal, sendo a única a participar de todas as três campanhas do RPG. Liz era uma médica e cientista forense, extremamente obstinada, inteligente e habilidosa, com uma obsessão por criar teorias e desvendar casos. Trabalhando com o seu parceiro detetive, Gustavo Dohmer, ajudou a resolver alguns casos para a Polícia Federal até que, finalmente, foi recrutada para a Ordo Realitas.</p>
+            </div>
+         </div>
+
+         <div class="saida">
+         <form action="inicio.html" method="GET">
+            <input type="submit" value="voltar" width="100x" height="80x">
+        </form>
+</div>
+</div>
+</div>
+</body>
+
+</html>
