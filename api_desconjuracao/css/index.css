@@ -1,0 +1,29 @@
+.persona{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    height: 25%;
+}
+.persona img{
+    width: 80%;
+    height: 80%;
+    border-radius: 100%;
+    box-shadow: 0px 0px 3px red;
+}
+.persona p, .persona a{
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px rgba(212, 0, 28, 0.982);
+    font-size: 20px;
+    text-align: center;
+    font-family: SpecialElite;
+}
+h1{
+    font-family: JulianSansOne;
+    font-size: 30px;
+}
+#titulo{
+    height: 80%;
+}
