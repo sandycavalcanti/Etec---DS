@@ -1,0 +1,117 @@
+    
+  @font-face {
+    font-family: LosingGrip;
+    src: url("../../fontes/LosingGripRegular-YxG4.ttf");
+  }
+
+#background{
+    background-image: url('../../img/teste2.png');
+    background-repeat: no-repeat; 
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: auto;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+  }
+
+  nav{
+    position: static;
+    box-shadow: 0px 0px 15px black;
+    background-image: radial-gradient(farthest-corner at 50px -10px, #976c43, #c29971);
+  }
+
+  .navbar-brand{
+    margin-left: 6px;
+    text-shadow: 1px 1px 10px #757575;
+  }
+
+  .dropdown-item{
+    color: #663707;
+  }
+
+  .dropdown-item:hover{
+    background-color: #d1a476;
+    color: #663707;
+  }
+
+  .dropdown-menu{
+    background-color: #ebbf93;
+    border: solid 1px #66370791;
+  }
+
+
+  #container{
+    position: relative;
+    width: 100%;
+    height: 52.5%;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.733);;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3%;
+    background-image: radial-gradient(farthest-corner at 50px 10px, #976c43, #c29971);
+    align-self: flex-end;
+  }
+
+  .logo{
+    align-items: center;
+    /* background-color: rgb(152, 233, 179); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .botoes{
+    top: 25%;
+    width: 12%;
+    height: 40%;
+    background-color: #e6bc92;
+    position: relative;
+    border: solid 3px #663707;
+    border-radius: 50%;
+    
+  }
+
+  .links{
+    width: 100%;
+    height: 100%;
+  }
+
+  .img{
+    width: 100%;
+    height: 100%;
+    background-image: url("../../img/livros.jpg");
+    border-radius: 50%;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-family: LosingGrip;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .botoes:hover .img{
+    background-image: none;
+  }
+
+  p{
+    font-size: 340%;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .botoes:hover p{
+    color: #663707;
+  } 
+
+  .botoes p{
+    color: transparent;
+    
+    line-height: 50px;
+  } 

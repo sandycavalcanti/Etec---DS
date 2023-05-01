@@ -1,0 +1,123 @@
+#background{
+    background-image: url('../../img/teste2.png');
+    background-repeat: no-repeat; 
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: auto;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+  
+  #container{
+    width: 100%;
+    position: relative;
+    top: 240px;
+    box-shadow: 0px 0px 5px black;
+    height: auto;
+     background-color: #c29364; 
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow-x:hidden;
+    /* background: linear-gradient(#997755, 50%, #c7a27e ); */
+  }
+  
+  td{
+  border: solid 3px #502d09;
+  position: relative;
+  text-align: center;
+  color: #442020;
+  font-family: LosingGrip;
+  font-size: 40px;
+  } 
+  .nomes_td{
+  background-color: #d29c65;
+  }
+  .variaveis{
+  background:  #e6ac73;
+  }
+  .td_id{
+  width: 100px;
+  } 
+  .td_desc{
+  width: 900px;
+  }
+  .td_cat{
+  width: 300px;
+  }
+  .td_aut{
+  width: 400px;
+  } 
+  .td_ed{
+    width: 400px;
+    } 
+    .td_ti{
+        width: 300px;
+        } 
+  
+  .titulo{
+  top: 60px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  font-family: LosingGrip;
+  }
+  h1{
+  color: #442020;
+  font-size: 80px;
+  }
+  a{
+  color:#3a3a3a;
+  text-decoration: none;
+  }
+  a:hover{
+  color:#757575;
+  }
+  
+  
+  @font-face {
+    font-family: LosingGrip;
+    src: url("../../fontes/LosingGripRegular-YxG4.ttf");
+  }
+  
+        nav{
+            position: static;
+            box-shadow: 0px 0px 15px black;
+            background-image: radial-gradient(farthest-corner at 50px -10px, #976c43, #c29971);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+  
+        .navbar-brand{
+            margin-left: 6px;
+            text-shadow: 1px 1px 10px #757575;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+  
+        .dropdown-item{
+            color: #663707;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+  
+        .dropdown-item:hover{
+            background-color: #e6bc92;
+        }
+  
+        .dropdown-menu{
+            background-color: #c29364;
+            border: solid 1px #663707;
+        }
+        #lista{
+          position: relative;
+          top: 60px;
+          background-color: transparent;
+          overflow-y: auto;
+          margin-bottom: 80px;
+          overflow-x: hidden;
+          font-size: 40px;
+          font-family: LosingGrip;
+        }
