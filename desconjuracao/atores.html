@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atores</title>
+
+    <style>
+
+        body{
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 1900px;
+            
+        }
+
+        #fundo{
+            background-image: url(img/parede_escripta.jpg);
+            background-repeat: no-repeat;
+            top: 0px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            overflow: auto;
+            position: absolute;
+            background-position: center;
+            background-size: cover;
+        }
+
+        #container{
+             position: relative;
+             width: 1300px;
+             height: 3800px;
+             top: 50px;
+             margin: auto;
+             display: flex;
+             flex-direction: column;
+             justify-content: space-around;
+           
+          
+         }
+
+         .titulo{
+             position: relative;
+             width: 200px;
+             height: 40px;
+         }
+
+        p{
+             font-family:cursive;
+             font-size: 20px;
+             margin-left: 15px;
+             margin-right: 15px;
+             margin-top: 5%;
+             color: rgb(31, 3, 3);
+         }
+
+         h1{
+             font-size: 80px;
+             color: rgb(20, 1, 1);
+         }
+   
+         h2{
+             position: relative;
+             left: 50px;
+             font-family: cursive;
+             color: rgb(31, 3, 3);
+         }
+
+         .descrição{
+             position:static;
+             width: 990px;
+             height: 310px;
+             margin-top: -340px;
+             margin-left: 290px;
+             
+         }
+
+        .foto_luba{
+             position: relative;
+             top: -5px;
+             left: -5px;
+             width: 280px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0);
+         }
+
+         #luba{
+             width: 1300px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0);
+             background-color: rgba(80, 77, 77, 0.514);
+             box-shadow: 20px 20px 30px rgb(20, 1, 1);
+         }
+
+         .foto_guaxinim{
+             position: relative;
+             top: -5px;
+             left: -5px;
+             width: 280px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0)
+         }
+
+         #guaxinim{
+             width: 1300px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0);
+             background-color: rgba(80, 77, 77, 0.514);
+             box-shadow: 20px 20px 30px rgb(20, 1, 1);
+         }
+
+       
+
+
+         .foto_ljoga{
+             position: relative;
+             top: -5px;
+             left: -5px;
+             width: 280px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0);
+         }
+
+         #ljoga{
+             width: 1300px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0);
+             background-color: rgba(80, 77, 77, 0.514);
+             box-shadow: 20px 20px 30px rgb(20, 1, 1);
+         }
+
+         .foto_calango{
+             position: relative;
+             top: -5px;
+             left: -5px;
+             width: 280px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0)
+         }
+
+         #calango{
+             width: 1300px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0);
+             background-color: rgba(80, 77, 77, 0.514);
+             box-shadow: 20px 20px 30px rgb(20, 1, 1);
+         }
+
+         .foto_gabi{
+             position: relative;
+             top: -5px;
+             left: -5px;
+             width: 280px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0)
+         }
+
+         #gabi{
+             width: 1300px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0);
+             background-color: rgba(80, 77, 77, 0.514);
+             box-shadow: 20px 20px 30px rgb(20, 1, 1);
+         }
+
+         .foto_kalera{
+             position: relative;
+             top: -5px;
+             left: -5px;
+             width: 280px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0)
+         }
+
+         #kalera{
+             width: 1300px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0);
+             background-color: rgba(80, 77, 77, 0.514);
+             box-shadow: 20px 20px 30px rgb(20, 1, 1);
+         }
+
+         .foto_triz{
+             position: relative;
+             top: -5px;
+             left: -5px;
+             width: 280px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0)
+         }
+
+         #triz{
+             width: 1300px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0);
+             background-color: rgba(80, 77, 77, 0.514);
+             box-shadow: 20px 20px 30px rgb(20, 1, 1);
+         }
+
+         .foto_rakin{
+             position: relative;
+             top: -5px;
+             left: -5px;
+             width: 280px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0)
+         }
+
+         #rakin{
+             width: 1300px;
+             height: 340px;
+             border: 5px solid rgb(0, 0, 0);
+             background-color: rgba(80, 77, 77, 0.514);
+             box-shadow: 20px 20px 30px rgb(20, 1, 1);
+         }
+
+        .mini_container{
+             position: relative;
+             width: 380px;
+             height: 80px;
+             top: 50px;
+             left: 630px;
+             display: flex;
+             flex-direction: row;
+             justify-content: space-around;
+            
+         }
+        
+         .mini_container2{
+             position: relative;
+             width: 380px;
+             height: 80px;
+             top: 80px;
+             left: 630px;
+             display: flex;
+             flex-direction: row;
+             justify-content: space-around;
+            
+         }  
+       
+         .mini_container3{
+             position: relative;
+             width: 380px;
+             height: 80px;
+             top: -30px;
+             left: 630px;
+             display: flex;
+             flex-direction: row;
+             justify-content: space-around;
+         }  
+
+         .mini_container4{
+             position: relative;
+             width: 380px;
+             height: 80px;
+             top: 20px;
+             left: 630px;
+             display: flex;
+             flex-direction: row;
+             justify-content: space-around;
+         }  
+
+         .mini_container5{
+             position: relative;
+             width: 380px;
+             height: 80px;
+             top: 50px;
+             left: 630px;
+             display: flex;
+             flex-direction: row;
+             justify-content: space-around;
+         }
+         
+         .mini_container6{
+             position: relative;
+             width: 380px;
+             height: 80px;
+             top: 80px;
+             left: 630px;
+             display: flex;
+             flex-direction: row;
+             justify-content: space-around;
+         }  
+
+         .mini_container7{
+             position: relative;
+             width: 380px;
+             height: 80px;
+             top: 80px;
+             left: 630px;
+             display: flex;
+             flex-direction: row;
+             justify-content: space-around;
+         }  
+
+         .mini_container8{
+             position: relative;
+             width: 380px;
+             height: 80px;
+             top: 50px;
+             left: 630px;
+             display: flex;
+             flex-direction: row;
+             justify-content: space-around;
+         }  
+
+         .saida{
+            position: relative;
+            width: 50px;
+            height: 20px;
+            top: -40px;
+            left: -100px;
+            
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.849);
+        }
+        
+    </style>
+
+</head>
+
+<body background="img/parede_escripta.jpg">
+    <div id="fundo">
+
+          <center><div class="titulo"><h1>Atores:</h1></div></center>
+
+        <div id="container">
+
+            <div id="luba">
+                <div class="foto_luba"> <img src="img/luba.jpg" width="280" height="340"></div>
+                <div class="descrição">
+                    <h2>Luba</h2>
+                    <p>Lucas Rossi Feuerschütte, mais conhecido como Luba, é um streamer e criador de conteúdo. Ele interpretou Daniel Hartmann em A Ordem Paranormal e Joui Jouki em O Segredo na Floresta e Ordem Paranormal: Desconjuração.</p>
+                <div class="mini_container">
+            
+                        <a href="https://www.instagram.com/lubatv/?hl=pt-br"><img src="img/insta3.png" width="65x"></a>
+                   
+                        <a href="https://twitter.com/LubaTV"><img src="img/twitter2.png" width="70x"</a>
+                    
+                        <a href="https://www.youtube.com/channel/UCYALxwppPJjYyTMEwwEcNCQ"><img src="img/youtube1.png" width="60x"></a>
+            
+                        <a href="https://www.twitch.tv/lubatv"><img src="img/twitch3.png" width="75x"></a>
+               
+
+                    </div>
+                </div> 
+             </div>
+
+             <div id="guaxinim">
+                <div class="foto_guaxinim"> <img src="img/gaxinim.jpg" width="280" height="340"></div>
+                <div class="descrição">
+                    <h2>Guaxinim</h2>
+                    <p>Rafael Montes Cunha, mais conhecido como Guaxinim, é um streamer e youtuber que participa como Arthur Cervero nos RPGs de O Segredo na Floresta e Ordem Paranormal: Desconjuração.</p>
+                  <div class="mini_container2"> 
+        
+                    <a href="https://www.instagram.com/rafael.guaxinim/?hl=pt-br"><img src="img/insta3.png" width="65x"></a>
+         
+                    <a href="https://twitter.com/GuaxinimGamer?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="img/twitter2.png" width="70x"></a>
+                 
+                    <a href="https://www.youtube.com/user/GuaxinimGamer"><img src="img/youtube1.png" width="60x"></a>
+         
+                    <a href="https://www.twitch.tv/guaxinim"><img src="img/twitch3.png" width="75x"></a>
+              
+                 </div>
+               </div>
+             </div>
+            
+             <div id="ljoga">
+                <div class="foto_ljoga"> <img src="img/Ljoga.jpg" width="280" height="340"></div>
+                <div class="descrição">
+                    <h2>LJoga</h2>
+                    <p>Luis Gouveia, mais conhecido como LJoga, é um streamer da Twitch e Youtuber, sendo um dos vários participantes e jogadores de A Ordem Paranormal, O Segredo na Floresta e Ordem Paranormal - Desconjuração. Interpretou três personagens e uma criatura no Episódio 10 de O Segredo na Floresta: "Hotel" para o universo criado pelo Cellbit. Luis é o jogador que mais interpretou personagens até agora, Alexsander Kothe (AOP), Cristopher Cohen (OSNF) e Fernando Carvalho/Luciano Carvalho (OPD).</p>
+                    <div class="mini_container3"> 
+     
+                        <a href="https://www.instagram.com/ljoga/"><img src="img/insta3.png" width="65x"></a>
+     
+                        <a href="https://twitter.com/ljoga"><img src="img/twitter2.png" width="70x"></a>
+            
+                        <a href="https://www.youtube.com/channel/UC6xmnJJRpxGuL0zd4U2P95w"><img src="img/youtube1.png" width="60x"></a>
+        
+                        <a href="https://www.twitch.tv/ljoga"><img src="img/twitch3.png" width="75x"></a>
+               
+                    </div>
+                </div>
+             </div>
+
+             <div id="calango">
+                <div class="foto_calango"> <img src="img/calango.jpg" width="280" height="340"></div>
+                <div class="descrição">
+                    <h2>Calango</h2>
+                    <p>Thiago Elias, mais conhecido como Calango, é um streamer e criador de conteúdo. Ele jogou como Cesar Cohen em O Segredo na Floresta, e em Ordem Paranormal: Desconjuração, o personagem assumiu o codinome de Kaiser. Ele também interpretou Miguel Cariad no episódio "Manancial". Calango é o jogador que apareceu em mais sessões do RPG até hoje, no total de 35 episódios.</p>
+                    <div class="mini_container4"> 
+           
+                        <a href="https://www.instagram.com/calaaaango/"><img src="img/insta3.png" width="65x"></a>
+       
+                        <a href="https://twitter.com/Calango"><img src="img/twitter2.png" width="70x"></a>
+         
+                        <a href="https://www.youtube.com/user/CalaangoPvP"><img src="img/youtube1.png" width="60x"></a>
+    
+                        <a href="https://www.twitch.tv/calango"><img src="img/twitch3.png" width="75x"></a>
+      
+                    </div>
+                </div>
+             </div>
+
+             <div id="gabi">
+                <div class="foto_gabi"> <img src="img/gabi1.jpg" width="280" height="340"></div>
+                <div class="descrição">
+                    <h2>Gabi Cattuzzo</h2>
+                    <p>Gabriela "Gabi" Cattuzzo é uma streamer e criadora de conteúdo. Ela interpretou Elizabeth Webber em A Ordem Paranormal, O Segredo na Floresta e Ordem Paranormal: Desconjuração. Ela também interpretou Mariana Larona no episódio "Manancial" em O Segredo na Floresta.</p>
+                    <div class="mini_container5"> 
+               
+                            <a href="https://www.instagram.com/gabicattuzzo/"><img src="img/insta3.png" width="65x"></a>
+                    
+                            <a href="https://twitter.com/gabicattuzzo#:~:text=Gabriela%20Cattuzzo%20(%40gabicattuzzo),Twitter"><img src="img/twitter2.png" width="70x"></a>
+                           
+                            <a href="https://www.twitch.tv/gabi"><img src="img/twitch3.png" width="75x"></a>
+                  
+                        </div>
+                </div>
+             </div>
+
+             <div id="kalera">
+                <div class="foto_kalera"> <img src="img/Kalera.jpg" width="280" height="340"></div>
+                <div class="descrição">
+                    <h2>Kalera</h2>
+                    <p>Camila Vieira, mais conhecida como Kalera, é uma streamer e criadora de conteúdo que participou de O Segredo na Floresta como Eva van Gloss e em Ordem Paranormal - Desconjuração como Erin Parker.</p>
+                    <div class="mini_container6"> 
+                   
+                            <a href="https://www.instagram.com/iamkalera/"><img src="img/insta3.png" width="65x"></a>
+                         
+                            <a href="https://twitter.com/iamkalera"><img src="img/twitter2.png" width="70x"></a>
+                          
+                            <a href="https://www.youtube.com/user/CamilaDPV"><img src="img/youtube1.png" width="60x"></a>
+                         
+                            <a href="https://www.twitch.tv/kalera"><img src="img/twitch3.png" width="75x"></a>
+                        
+                        </div>
+                </div>
+             </div>
+
+             <div id="triz">
+                <div class="foto_triz"> <img src="img/triz.jpg" width="280" height="340"></div>
+                <div class="descrição">
+                    <h2>Triz Pariz</h2>
+                    <p>Beatriz Parizotto, conhecida na comunidade como Triz Pariz, é uma atriz, criadora de conteúdo, modelo e streamer. Ela interpretou Beatrice Portinari em Ordem Paranormal: Desconjuração.</p>
+                    <div class="mini_container7"> 
+                            <a href="https://www.instagram.com/triz/"><img src="img/insta3.png" width="65x"></a>
+                        
+                            <a href="https://twitter.com/trixparix?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="img/twitter2.png" width="70x"></a>
+                     
+                            <a href="https://www.youtube.com/channel/UCDa_5xnfoNTmOLpj9cjQaqQ"><img src="img/youtube1.png" width="60x"></a>
+                         
+                            <a href="https://www.twitch.tv/triz"><img src="img/twitch3.png" width="75x"></a>
+                           
+                        </div>
+                </div>
+             </div>
+
+             <div id="rakin">
+                <div class="foto_rakin"> <img src="img/rakin.jpg" width="280" height="340"></div>
+                <div class="descrição">
+                    <h2>Rakin</h2>
+                    <p>Rafael Knittel, mais conhecido como Rakin, é um streamer e ex-jogador profissional de League of Legends. Ele interpretou Thiago Fritz em A Ordem Paranormal e O Segredo na Floresta e atualmente interpreta Dante em Ordem Paranormal: Desconjuração.</p>
+                    <div class="mini_container8"> 
+                        
+                            <a href="https://www.instagram.com/rakinliquid/"><img src="img/insta3.png" width="65x"></a>
+                          
+                            <a href="https://twitter.com/Rakin"><img src="img/twitter2.png" width="70x"></a>
+                            
+                            <a href="https://www.youtube.com/channel/UCowJvMDgjFLbhp1a67zTZFw"><img src="img/youtube1.png" width="60x"></a>
+                           
+                            <a href="https://www.twitch.tv/rakin"><img src="img/twitch3.png" width="75x"></a>
+                           
+                        </div>
+                </div>
+             </div>
+       
+             <div class="saida">
+                <form action="inicio.html" method="GET">
+                    <input type="submit" value="voltar" width="100x" height="80x">
+                </form>
+             </div>
+
+         </div>
+    </div>
+
+</body>
+
+</html>
