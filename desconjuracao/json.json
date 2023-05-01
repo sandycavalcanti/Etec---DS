@@ -1,0 +1,87 @@
+[
+    {
+        "id" : "1",
+        "img" : "img/arthur.jpg",
+        "nome" : "Arthur Cervero",
+        "apelido" : "O Guitarrista",
+        "idade" : "30",
+        "ator" : "Rafael Montes",
+        "imgator" : "img/guaxinim.jpg",
+        "status" : "Vivo",
+        "afinidade" : "Sangue",
+        "aparicoes" : "O Segredo na Floresta,Desconjuração,Calamidade,Os Espinhos da Aurora Escarlate,O Segredo na Ilha"
+    },
+    {
+        "id" : "2",
+        "img" : "img/bea.jpg",
+        "nome" : "Beatrice Portinari",
+        "apelido" : "Bea",
+        "idade" : "23",
+        "ator" : "Beatriz Parizotto",
+        "imgator" : "img/triz.jpg",
+        "status" : "Falecida",
+        "afinidade" : "Nenhuma",
+        "aparicoes" : "Desconjuração"
+    },
+    {
+        "id" : "3",
+        "img" : "img/dante.jpg",
+        "nome" : "Dante",
+        "apelido" : "Gaspar",
+        "idade" : "29",
+        "ator" : "Rafael Knittel",
+        "imgator" : "img/rakin.jpg",
+        "status" : "Vivo",
+        "afinidade" : "Morte",
+        "aparicoes" : "Desconjuração,Calamidade,Sinais do Outro Lado"
+    },
+    {
+        "id" : "4",
+        "img" : "img/liz.jpg",
+        "nome" : "Elizabeth Webber",
+        "apelido" : "Liz",
+        "idade" : "50",
+        "ator" : "Gabriela Cattuzzo",
+        "imgator" : "img/gabi.jpg",
+        "status" : "Falecida",
+        "afinidade" : "Nenhuma",
+        "aparicoes" : "A Ordem Paranormal,O Segredo na Floresta,Desconjuração"
+    },
+    {
+        "id" : "5",
+        "img" : "img/joui.jpg",
+        "nome" : "Joui Jouki",
+        "apelido" : "Joe",
+        "idade" : "24",
+        "ator" : "Lucas Rossi Feuerschütte",
+        "imgator" : "img/luba.jpg",
+        "status" : "Falecido",
+        "afinidade" : "Nenhuma",
+        "aparicoes" : "O Segredo na Floresta,Desconjuração,Calamidade"
+    },
+    {
+        "id" : "6",
+        "img" : "img/gal.jpg",
+        "nome" : "Gal",
+        "apelido" : "Verme",
+        "idade" : "Entre 20 e 30",
+        "ator" : "João Miranda",
+        "imgator" : "img/jao.jpg",
+        "status" : "Vivo",
+        "afinidade" : "Conhecimento",
+        "aparicoes" : "Desconjuração,Calamidade"
+    },
+    {
+        "id" : "7",
+        "img" : "img/kaiser.jpg",
+        "nome" : "Cesar Oliveira Cohen",
+        "apelido" : "Kaiser, Angel Of The Night",
+        "idade" : "30",
+        "ator" : "Thiago  Elias",
+        "imgator" : "img/calango.jpg",
+        "status" : "Falecido (Inexistido)",
+        "afinidade" : "Energia",
+        "aparicoes" : "O Segredo na Floresta,Desconjuração"
+    }
+    
+]

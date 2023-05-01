@@ -1,0 +1,56 @@
+h3{
+    font-family: SpecialElite;
+    font-size: 30px;
+}
+#container{
+    width: 85%;
+    background: rgba(255, 0, 0, 0.055);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    justify-content: space-between;
+}
+#dados{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 70%;
+    font-size: 20px;
+    color: rgb(239, 0, 32);
+    text-shadow: 0px 0px 10px rgba(212, 0, 28, 0.982);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#dados img{
+    width: 44%; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px red;
+}
+#dados div{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#ator{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(239, 0, 32);
+    text-shadow: 0px 0px 10px rgba(212, 0, 28, 0.982);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;   
+    height: 100%;         
+}
+#ator img{
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px red;    
+}
+.atributo{
+    font-family: AdobeHebrew;
+    display: inline;
+    font-size: 22px;
+    color: whitesmoke;
+}

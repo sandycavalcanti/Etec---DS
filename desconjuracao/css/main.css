@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: SpecialElite;
+    src: url(../assets/SpecialElite.ttf);
+}
+@font-face {
+    font-family: AdobeHebrew;
+    src: url(../assets/adobehebrew.otf);
+}
+@font-face {
+    font-family: JulianSansOne;
+    src: url(../assets/JuliusSansOne.ttf);
+}
+#fundo{
+    position: absolute;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+}   
+#filtro{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.825), rgba(0, 0, 0, 0.125));
+    backdrop-filter: blur(3px);
+}
+nav{
+    width: 100%;
+    height: 25%;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px rgba(212, 0, 28, 0.982);
+    background: radial-gradient(ellipse, rgba(196, 11, 36, 0.449) 0%, rgba(255,0,0,0) 70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#container{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    margin-top: 15px;
+}       
