@@ -1,0 +1,14 @@
+.navbar{
+  background-color: #A7CBA8 !important;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.507);
+}
+.navbar p{
+  position: relative;
+  color: #384638;
+  margin: 4px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+.navbar p:hover{
+  color: rgb(218, 223, 217);
+}

@@ -1,0 +1,92 @@
+.tudo{
+    position: absolute;
+    width: 100%;
+    height: 93%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    position: relative;
+    width: 1500px;
+    display: flex;
+    top: 20px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+.titulo h1{
+    position: relative;
+    font-size: 60px;
+    padding: 30px;
+    color: #69816a;
+    text-shadow: 8px 6px 7px rgba(0, 0, 0, 0.24);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.projetos{
+    position: relative;
+    width: 1500px;
+    height: auto;
+    /* background-color: #b7bfda; */
+}
+.projeto{
+    position: relative;
+    width: 1400px;
+    height: auto;
+    background-color: #b7dab8;
+    border-radius: 3px;
+    display: flex;
+    margin: 40px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.521);
+}
+.projeto img{
+    width: 800px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.img{
+    width: 400px !important;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+} 
+.projeto h1{
+    position: relative;
+    padding: 20px;
+    font-size: 30px;
+    color: #69816a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.projeto p{
+    position: relative;
+    margin: 20px;
+    color: #69816a;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.textos{
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-left: solid 2px #69816a;
+}
+.caixa{
+    position: relative;
+    top: 30px;
+    background-color: rgba(240, 255, 255, 0.247);
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+ .caixa a{
+    position: relative;
+    color: #1a8a20;
+    font-size: 20px;
+    text-decoration-line: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.caixa a:hover{
+    color: #6ba16e;
+}
